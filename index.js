@@ -49,6 +49,13 @@ const routes = [
     config: {
       handler: services.home
     }
+  },
+  {
+    method: 'GET',
+    path: '/delete',
+    config: {
+      handler: services.deleteAll
+    }
   }
 ];
 
