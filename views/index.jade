@@ -1,0 +1,10 @@
+extend layout
+
+block content
+  h1 Logs
+
+  for image in images
+    div
+      img(src='#{image.image}')
+      span= image.created
+

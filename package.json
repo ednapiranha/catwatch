@@ -1,0 +1,35 @@
+{
+  "name": "catwatch",
+  "version": "1.0.0",
+  "description": ".",
+  "private": true,
+  "engines": {
+    "node": "~5.x.x",
+    "npm": "3.x.x"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "boom": "^2.6.1",
+    "concat-stream": "^1.5.1",
+    "hapi": "^10.2.x",
+    "inert": "^3.2.0",
+    "jade": "^1.9.2",
+    "joi": "^6.0.8",
+    "level": "^1.4.0",
+    "moment": "^2.10.6",
+    "nconf": "^0.7.2",
+    "path": "^0.12.7",
+    "socket.io": "^1.3.7",
+    "vision": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ednapiranha/catwatch.git"
+  },
+  "author": "jen"
+}

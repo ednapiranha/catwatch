@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: 'Helvetica Neue';
+  font-weight: 100;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+div {
+  float: left;
+  margin: 5px;
+  position: relative;
+  clear: both;
+  width: 100%;
+  max-width: 610px;
+}
+
+img {
+  max-width: 600px;
+  width: 100%;
+  float: left;
+}
+
+span {
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  background-color: rgba(1, 1, 1, 0.5);
+  color: #eee;
+  font-size: 0.9rem;
+  bottom: 0;
+  right: 0;
+}
