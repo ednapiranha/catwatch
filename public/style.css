@@ -1,25 +1,25 @@
 body {
   margin: 0;
-  padding: 10px;
+  padding: 0;
   font-family: 'Helvetica Neue';
   font-weight: 100;
 }
 
 h1 {
   font-weight: 100;
+  padding: 10px;
 }
 
 div {
   float: left;
-  margin: 5px;
+  margin-bottom: 5px;
   position: relative;
-  clear: both;
   width: 100%;
-  max-width: 610px;
+  max-width: 400px;
 }
 
 img {
-  max-width: 610px;
+  max-width: 400px;
   width: 100%;
   float: left;
 }
